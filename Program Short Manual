@@ -1,0 +1,35 @@
+#include <stdio.h>
+
+int main() {
+    int a, b, c, temp;
+
+    // Meminta input dari pengguna
+    printf("Masukkan angka pertama: ");
+    scanf("%d", &a);
+    printf("Masukkan angka kedua: ");
+    scanf("%d", &b);
+    printf("Masukkan angka ketiga: ");
+    scanf("%d", &c);
+
+    // Proses pengurutan (Bubble sort sederhana untuk 3 angka)
+    if (a > b) {
+        temp = a;
+        a = b;
+        b = temp;
+    }
+    if (a > c) {
+        temp = a;
+        a = c;
+        c = temp;
+    }
+    if (b > c) {
+        temp = b;
+        b = c;
+        c = temp;
+    }
+
+    // Menampilkan hasil
+    printf("Urutan dari terkecil ke terbesar: %d, %d, %d\n", a, b, c);
+
+    return 0;
+}
