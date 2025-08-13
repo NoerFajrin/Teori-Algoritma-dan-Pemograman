@@ -4,21 +4,33 @@ int main() {
     int i, j;
 
     // ===== Array 1 Dimensi =====
-    int a1[6]; // 6 elemen int
+    int a1[6]; // Membuat array 1 dimensi berisi 6 elemen int
     printf("Alamat memori Array 1 Dimensi:\n");
+
+    // for ini akan mengulang i dari 0 sampai 5
+    // Tujuannya: menampilkan alamat memori tiap elemen a1
     for (i = 0; i < 6; i++) {
+        // %d = cetak nilai integer (nomor indeks)
+        // %X = cetak nilai alamat dalam bentuk hexadecimal
+        // &a1[i] = alamat memori elemen ke-i
         printf("a1[%d]  - %X\n", i, &a1[i]);
     }
-    printf("\n");
+    printf("\n"); // baris kosong untuk pemisah output
 
     // ===== Array 2 Dimensi =====
-    int a2[2][3]; // 2 baris, 3 kolom = total 6 elemen int
+    int a2[2][3]; // Membuat array 2 dimensi (2 baris x 3 kolom) total 6 elemen int
     printf("Alamat memori Array 2 Dimensi:\n");
-    for (i = 0; i < 2; i++) {         // loop baris
-        for (j = 0; j < 3; j++) {     // loop kolom
+
+    // for luar (i) untuk mengatur baris, dari 0 sampai 1
+    for (i = 0; i < 2; i++) {         
+
+        // for dalam (j) untuk mengatur kolom, dari 0 sampai 2
+        for (j = 0; j < 3; j++) {     
+            // Menampilkan alamat memori elemen pada baris ke-i, kolom ke-j
+            // Walaupun 2 dimensi, array tetap disimpan linear (baris demi baris)
             printf("a2[%d][%d] - %X\n", i, j, &a2[i][j]);
         }
     }
 
-    return 0;
+    return 0; // Program selesai
 }
