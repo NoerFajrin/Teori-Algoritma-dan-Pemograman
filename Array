@@ -56,10 +56,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wFC1lZpNupAy8KkT8QoZ-17" value="Hasil" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="980" width="180" height="60" as="geometry" />
+          <mxGeometry x="110" y="980" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="wFC1lZpNupAy8KkT8QoZ-19" value="Selsai" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
-          <mxGeometry x="140" y="1090" width="120" height="60" as="geometry" />
+          <mxGeometry x="140" y="1080" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="wFC1lZpNupAy8KkT8QoZ-21" value="45" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="350" y="300" width="60" height="60" as="geometry" />
