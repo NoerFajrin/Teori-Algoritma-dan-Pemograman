@@ -1,0 +1,19 @@
+#include <stdio.h>   // Library standar input-output (untuk printf)
+#include <math.h>    // Library matematika (untuk fungsi pow)
+
+int main() {
+    int a[10];       // Deklarasi array 'a' dengan 10 elemen bertipe int
+    int i, n;        // Variabel i untuk loop, n untuk menyimpan hasil sementara
+
+    // Perulangan dari i = 0 sampai i = 9 (total 10 kali)
+    for(i = 0; i <= 9; i++) {
+        n = pow(2, i);   // Menghitung 2 pangkat i (fungsi pow mengembalikan double)
+                         // contoh: pow(2,0)=1, pow(2,1)=2, pow(2,2)=4, dst
+
+        a[i] = n;        // Menyimpan hasil pangkat ke dalam array elemen ke-i
+
+        printf("%i ", a[i]);  // Menampilkan elemen array ke-i diikuti spasi
+    }
+
+    return 0;            // Program selesai dengan sukses
+}
