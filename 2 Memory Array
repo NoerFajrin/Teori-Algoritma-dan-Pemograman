@@ -1,0 +1,17 @@
+#include <stdio.h>   // Library standar input-output di C, digunakan untuk printf()
+
+int main() {         // Fungsi utama program, titik awal eksekusi
+    int a[5];        // Deklarasi array 'a' dengan 5 elemen bertipe int (a[0] sampai a[4])
+    int i;           // Variabel penghitung untuk perulangan (loop)
+
+    // Perulangan dari i=0 sampai i=4 (total 5 elemen array)
+    for(i = 0; i <= 4; i++) {
+        // Menampilkan indeks array dan alamat memori elemen array ke-i
+        // %i = format integer (menampilkan nilai i)
+        // %X = format heksadesimal (menampilkan alamat memori dengan huruf besar)
+        // &a[i] = alamat memori dari elemen array ke-i
+        printf("%i - %X \n", i, &a[i]);  
+    }
+
+    return 0;        // Mengembalikan nilai 0, menandakan program selesai dengan sukses
+}
