@@ -231,6 +231,9 @@
         <mxCell id="S7k3iiXXriAMhXYgrseB-14" value="Selesai" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
           <mxGeometry x="354" y="2560" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="S7k3iiXXriAMhXYgrseB-18" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1820" width="400" height="810" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
